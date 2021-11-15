@@ -1,6 +1,6 @@
 #!/bin/sh
-pacman -S doas vim mpv git github-cli zathura yay monero monero-gui bitcoin-cli bitcoin-qt base-devel pass brave-browser-beta newsboat ffmpeg 
-yay -S sc-im litecoin-qt litecoin-cli wownero-git wowlet-git zcash zecwallet zecwallet-lite electrum-cash electrum-dash task-spooler
+pacman -S doas vim mpv git github-cli zathura yay monero monero-gui bitcoin-cli bitcoin-qt electrum base-devel pass brave-browser-beta newsboat ffmpeg qrencode
+yay -S sc-im litecoin-qt litecoin-cli wownero-git wowlet-git zcash zecwallet zecwallet-lite electrum-cash electrum-dash task-spooler htop-vim-git
 
 pushd /usr/src/
 git clone https://github.com/lukesmithxyz/vul.git
