@@ -1,0 +1,9 @@
+A,dust,is a rewrite of du with colors and other options
+A,gping,is a ping alternative with full screen
+A,prettyping,is a ping alternative with a graph
+G,https://github.com/martanne/dvtm.git,is a terminal-based dwm
+,abducco,is the session management for dvtm
+A,activitywatch-bin,
+A,hyperfine,
+A,afetch,is a neofetch alternative written in C
+A,paleofetch,is a suckless version of neofetch
