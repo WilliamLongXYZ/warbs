@@ -67,11 +67,17 @@ A,youtube-dl-git,
 ,moreutils,
 ,xorg-server,
 ,xorg-xwininfo,
-# ,xorg-xinit,
 A,sx,
 ,ttf-linux-libertine,
 ,latex,
 ,mlocate,
+A,opustags-git,is a tagger for opus files
+,svgcleaner,
+,dash,is my /bin/sh
+,xorg-xmodmap,
+,picom,is a program to make your windows look better
+A,chtsh,is an alternative manpage
+A,libxft-bgra-git,enables emoji support
 # Support for different filesystems
 ,dosfstools,
 ,exfat-utils,
@@ -79,5 +85,4 @@ A,sx,
 ,simple-mtpfs,
 ,npfs,
 A,apfs-fuse-git,
-,svgcleaner,
-,dash,is my /bin/sh
+,net-utils,gives the netstat program to get open ports

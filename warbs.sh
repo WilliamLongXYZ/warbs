@@ -18,3 +18,6 @@ do
 	cd ../
 done
 
+
+echo "export ZDOTDIR=\$HOME/.config/zsh" >> /etc/zsh/zshenv
+
