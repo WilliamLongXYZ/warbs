@@ -12,5 +12,3 @@ A,latin-words,is a disctionary of Whitaker's Latin words
 A,sfeed,rss feed reader which converts xml to tsv
 A,urlview,is a URL parser for text files with support for the XDG Base Directory specifications
 A,sent-git,is a suckless slideshow compiler
-G,https://github.com/lukesmithxyz/lb.git,is a program to automate blog creation
-A,anbox-git,is an android container, which I may never use if I get a phone for the few things I'd need it for
