@@ -12,3 +12,4 @@ A,latin-words,is a disctionary of Whitaker's Latin words
 A,sfeed,rss feed reader which converts xml to tsv
 A,urlview,is a URL parser for text files with support for the XDG Base Directory specifications
 A,sent-git,is a suckless slideshow compiler
+A,svgo,is an svg optimizer
