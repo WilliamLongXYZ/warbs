@@ -14,3 +14,5 @@ A,urlview,is a URL parser for text files with support for the XDG Base Directory
 A,sent-git,is a suckless slideshow compiler
 A,svgo,is an svg optimizer
 ,glab,is a gitlab tool, similar to the "gh" script
+A,lbry-sync-ytdl,is a program to sync your YouTube channel with LBRY via youtube-dl
+A,lbt,is a command line tool for LBRY
