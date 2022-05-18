@@ -1,9 +1,6 @@
 A,dust,is a rewrite of du with colors and other options
-A,gping,is a ping alternative with full screen
-A,prettyping,is a ping alternative with a graph
 G,https://github.com/martanne/dvtm.git,is a terminal-based dwm
 ,abducco,is the session management for dvtm
-A,activitywatch-bin,
 A,hyperfine,
 A,afetch,is a neofetch alternative written in C
 A,paleofetch,is a suckless version of neofetch
@@ -12,7 +9,9 @@ A,latin-words,is a disctionary of Whitaker's Latin words
 A,sfeed,rss feed reader which converts xml to tsv
 A,urlview,is a URL parser for text files with support for the XDG Base Directory specifications
 A,sent-git,is a suckless slideshow compiler
-A,svgo,is an svg optimizer
+svgcleaner,is an svg optimizer
 ,glab,is a gitlab tool, similar to the "gh" script
 A,lbry-sync-ytdl,is a program to sync your YouTube channel with LBRY via youtube-dl
 A,lbt,is a command line tool for LBRY
+,lowdown,is a suckless alternative to pandoc, with no Haskell dependancy
+,bleachbit,is a program to bleach orphaned inodes
