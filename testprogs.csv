@@ -15,3 +15,4 @@ A,lbry-sync-ytdl,is a program to sync your YouTube channel with LBRY via youtube
 A,lbt,is a command line tool for LBRY
 ,lowdown,is a suckless alternative to pandoc, with no Haskell dependancy
 ,bleachbit,is a program to bleach orphaned inodes
+,kbd,provides the vlock program, to lock tty and terminal consoles
