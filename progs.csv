@@ -1,91 +1,135 @@
-#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
-A,abook,
-,calcurse,
-,mutt,
-,fzf,
-,entr,
-,ncmpcpp,
-,mpd,
-,mpc,
-,mpv,
-,maim,
-,brave,
-,stardict,
-,sdcv,
-,github-cli,
-A,lf-git,
-,newsboat,
-,sxiv,
-,zathura,
-A,htop-vim-git,
-#,nmtui,
-,vimwiki,
-,pulsemixer,
-,pass,
-,passmenu,
-,transmission,
+,abducco,is the session management for dvtm
+,aria2,can download files from torrent, ftp, http and other protocols
+,atool,
 ,bc,
-,libnotify,
+,bat,is like cat with syntax highlighting
+,bleachbit,is a program to bleach orphaned inodes
+,calcurse,
+,dash,is my /bin/sh
+,dosfstools,
 ,dunst,
-,xwallpaper,
+,dust
+,ecryptfs-utils,
+,entr,
+,exfat-utils,
+,expac,lets you get more information on your pacman databases
+,f2fs-tools,are tools for flash friendly filesystems (F2FS)
 ,ffmpeg,
-,pam-gnupg,
-A,gtk-theme-arc-gruvbox-git,
+,fzf,
+,gimp,
+,git,controls source code
+,glab,is a gitlab tool, similar to the "gh" script
+,gnome-keyring,is the keyring I use for gpg
+,go-ethereum,is a go wrapper for the ether blockchain
+,hyperfine,is a command-line benchmarking tool
+,iptables,is the linux kernel's firewall tool
+,isync,is needed for my email setup to sync mail
+,jfsutils,are JFS filesystem utilities
+,jq,is a command-line jquery parser
+,kbd,provides the vlock program, to lock tty and terminal consoles
+,libnotify,
+,lowdown,is a suckless alternative to pandoc, with no Haskell dependancy
+,maim,takes screenshots
+,make,is needed to build many programs
 ,man-db,
-,noto-fonst-emoji,
+,mediainfo,
+,mlocate,
+,monero,
+,moreutils,
+,mpc,
+,mpd,
+,mpv,
+,msmtp,allows you to send mail
+,ncmpcpp,is a music player which runs with mpd
+,neomutt,is an emailclient
+,newsboat,
+,notmuch,lets you search and index your mail
+,noto-fonts-emoji,
+,ntfs-3g,allows access to NTFS filesystems
+,opendoas,is a simpler root access program than sudo
+,pacman-contrib,lets you use the pactree command
+,pamixer,
+,pass,
+,pass-otp,
+,patch,is necessary for adding patches to suckless software
+,pavucontrol,
 ,pipewire,
 ,pipewire-pulse,
-,pamixer,
-A,sc-im,
-,pandoc,
-,latex-beamer,
+,poppler,
+,pulsemixer,
+,reiserfsprogs,are tools for the ReiserFS Filesystem
+,rsync,lets you sync files via ssh
+,rtmpdump,is a toolkit for rtmp streams
+,sdcv,provides a command line interface for stardict
+,slock,is the Suckless Screen LOCKer
+,socat,
+,stardict,
+,svgcleaner,is an svg optimizer
+,sxiv,
+#STOPPED HERE COME BACK +TODO
+,termdown,functions as a stopwatch and timer in your terminal
+,terminus-font,is a font for the terminal
+,traceroute,shows you how many steps and how long it takes to get a site's ip
+,transmission,
+,ttf-inconsolata,
+,ttf-joypixels,
+,ttf-liberation,
+,,ttf-linux-libertine,
+,ueberzug,gives image previews to lf
+,ufw,is a simple firewall and partial frontend to iptables
 ,unclutter,
 ,unrar,
 ,unzip,
-,lynx,
+,usbutils,
+,vim,
+,wget,lets you download files from the web in your terminal
+,which,tells you what a command will run
 ,xcape,
-,gimp,
-,xclip,
-,electrum,
-A,bisq,
+,xcompmgr,allows transparency in x windows
+,xcursor-premium,makes your cursor look cool
+,xcursor-vanilla-dmz,makes your cursor look cooler
+,xdg-dbus-proxy,
+,xdg-user-dirs,
+,xdg-utils,
 ,xdotool,
-,xorg-xdpyinfo,
-A,youtube-dl-git,
-,zathura-pdf-mupdf,
-,poppler,
-,monero,
-,arandr,
-,xorg-xprop,
-,xcompmgr,
-,mediainfo,
-,atool,
-,highlight,
-,xorg-xbacklight,
-,task-spooler,
-,slock,
-,socat,
-,moreutils,
+,xfsprogs,are utilites for the xfs filesystem
 ,xorg-server,
-,xorg-xwininfo,
-A,sx,
-,ttf-linux-libertine,
-,latex,
-,mlocate,
-A,opustags-git,is a tagger for opus files
-,svgcleaner,
-,dash,is my /bin/sh
+,xorg-xauth,
+,xorg-xbacklight,
+,xorg-xdpyinfo,
+,xorg-xev,
+,xorg-xhost,
 ,xorg-xmodmap,
-,picom,is a program to make your windows look better
+,xorg-xprop,
+,xorg-xrdb
+,xorg-xsetroot
+,xorg-xwininfo,
+,xprintidle,makes the idlesleep script work
+,xsel,is a more neat alternative to xclip
+,xssstate,is a program for starting screensavers or auto-sleeping
+,xwallpaper,
+,zathura,
+,zathura-pdf-mupdf,
+,zathura-ps,
+,zbar,allows you to read barcodes
+,zsh,is my login shell
+A,abook-configdir,is an addressbook
+A,brave-bin,is a web browser which blocks ads and trackers by default
+A,lf-git,is a file browser for the terminal
+A,htop-vim-git,monitors processes and lets you terminate them
+A,vim-vimwiki,
+A,pam-gnupg-git,opens your gpg key on login
+A,gtk-theme-arc-gruvbox-git,gives a good darkmode for gkt applications
+A,sc-im-git,is a vim-based spreadsheet editor
+A,bisq,
+A,youtube-dl-git,
+A,task-spooler,
+A,sx,
+A,opustags-git,is a tagger for opus files
 A,chtsh,is an alternative manpage
 A,libxft-bgra-git,enables emoji support
-,xssstate,is a program for starting screensavers or auto-sleeping
-G,https://github.com/lukesmithxyz/lb.git,is a program to automate blog creation
-# Support for different filesystems
-,dosfstools,
-,exfat-utils,
-,ntfs-3g,
-,simple-mtpfs,
-,npfs,
 A,apfs-fuse-git,
-,net-utils,gives the netstat program to get open ports
-A,gtypist,is a simple typing game to learn to and practice your typing.
+A,gtypist-single-space,is a simple typing game to learn to and practice your typing.
+A,xmrig-bin,is a monero-miner
+A,ttf-symbola,is an emoji font
+A,scc-bin,counts lines of code in a file or directory
