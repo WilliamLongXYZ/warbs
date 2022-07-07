@@ -133,3 +133,23 @@ A,gtypist-single-space,is a simple typing game to learn to and practice your typ
 A,xmrig-bin,is a monero-miner
 A,ttf-symbola,is an emoji font
 A,scc-bin,counts lines of code in a file or directory
+A,simple-mtpfs
+
+
+
+
+
+
+# testing, will either be removed or moved up
+
+,hyperfine,is a command-line benchmarking tool
+A,afetch,is a neofetch alternative written in C
+A,paleofetch,is a suckless version of neofetch
+A,sfeed,rss feed reader which converts xml to tsv
+A,urlview-xdg-git,is a URL parser for text files with support for the XDG Base Directory specifications
+A,sent-git,is a suckless slideshow compiler
+A,lbry-sync-ytdl,is a program to sync your YouTube channel with LBRY via youtube-dl
+A,lbrynet-bin,allows you to access the LBRY protocol
+A,lbt,is a command line tool for LBRY
+A,pup,allows you to view html from the terminal
+A,ytfzf,lets you browse youtube from the terminal
