@@ -15,6 +15,7 @@
 ,expac,lets you get more information on your pacman databases
 ,f2fs-tools,are tools for flash friendly filesystems (F2FS)
 ,ffmpeg,
+,sox,
 ,fzf,
 ,gimp,
 ,git,controls source code
@@ -126,7 +127,7 @@ A,youtube-dl-git,
 A,task-spooler,
 A,sx,
 A,opustags-git,is a tagger for opus files
-A,chtsh,is an alternative manpage
+A,cht.sh,is an alternative manpage
 A,libxft-bgra-git,enables emoji support
 A,apfs-fuse-git,
 A,gtypist-single-space,is a simple typing game to learn to and practice your typing.
@@ -153,3 +154,5 @@ A,lbrynet-bin,allows you to access the LBRY protocol
 A,lbt,is a command line tool for LBRY
 A,pup,allows you to view html from the terminal
 A,ytfzf,lets you browse youtube from the terminal
+A,amfora,is a terminal-based browser for the gemini protocol
+A,xdg-ninja,helps you conform to the XDG Base Directory specifications
