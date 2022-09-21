@@ -194,15 +194,6 @@ putgitrepo() {
 	su -c "cp -rfT '$dir' '$2'" "$name"
 }
 
-# TODO Create function to install plugins for plain vim
-# vimplugininstall() {
-# 	# Installs vim plugins.
-# 	whiptail --infobox "Installing neovim plugins..." 7 60
-# 	mkdir -p "/home/$name/.config/nvim/autoload"
-# 	curl -Ls "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" >  "/home/$name/.config/nvim/autoload/plug.vim"
-# 	chown -R "$name:wheel" "/home/$name/.config/nvim"
-# 	sudo -u "$name" nvim -c "PlugInstall|q|q"
-# }
 
 finalize() {
 	whiptail --title "All done!" \
@@ -276,9 +267,6 @@ pacman -Qs libxft-git ||
 # other unnecessary files.
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -rf "/home/$name/.git/" "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
-
-# Install vim plugins if not alread present.
-[ ! -f "/home/$name/.config/nvim/autoload/plug.vim" ] && vimplugininstall
 
 # Most important command! Get rid of the beep!
 rmmod pcspkr
