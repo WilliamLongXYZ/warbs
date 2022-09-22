@@ -120,9 +120,9 @@ manualinstall() {
                         su -c "git pull --force origin master" "$name"
                 }
         cd "$repodir/$1" || exit 1
-        #TODO: Find a more elegant solution, over echoing the user password,
-        #      which requires user and root to have the same password
+	password=$(whiptail --nocancel --passwordbox "Please enter your root password for su, ran from makepkg." 10 60 3>&1 1>&2 2>&3 3>&1)
         su -c "echo '$password' | makepkg --noconfirm -si" "$name" || return 1
+        unset password
 }
 
 maininstall() {
