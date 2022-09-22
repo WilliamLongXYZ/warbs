@@ -153,7 +153,7 @@ aurinstall() {
 	whiptail --title "LARBS Installation" \
 		--infobox "Installing \`$1\` ($n of $total) from the AUR. $1 $2" 9 70
 	echo "$aurinstalled" | grep -q "^$1$" && return 1
-	su -c "$aurhelper -S --noconfirm "$1" >/dev/null 2>&1" "$name"
+	su -c "$aurhelper -S --noconfirm '$1' >/dev/null 2>&1" "$name"
 }
 
 pipinstall() {
@@ -189,9 +189,18 @@ putgitrepo() {
 	[ ! -d "$2" ] && mkdir -p "$2"
 	chown "$name":wheel "$dir" "$2"
 	su -c "git -C '$repodir' clone --depth 1 \
-		--single-branch --no-tags -q --recursive -b "$branch" \
+		--single-branch --no-tags -q --recursive -b '$branch' \
 		--recurse-submodules '$1' '$dir'"
 	su -c "cp -rfT '$dir' '$2'" "$name"
+}
+
+allowdoas() {
+        doascmds="/usr/bin/shutdown /usr/bin/reboot /usr/bin/wpa_cli /usr/bin/mount /usr/bin/umount /usr/bin/pacman /usr/bin/loadkeys /usr/bin/yay"
+
+        for cmdpath in $doascmds; do
+                cmdname="$(echo "[${cmdpath}]" | sed 's/\[//g; s/\]//g' | sed 's/.*\///g')"
+                echo "permit nopass $name cmd $cmdname" >> /etc/doas.conf
+        done
 }
 
 
@@ -297,8 +306,9 @@ EndSection' >/etc/X11/xorg.conf.d/40-libinput.conf
 # Allow user to use doas with password and allow several system commands
 # (like `shutdown` to run without password).
 echo "permit $name as root" >/etc/doas.conf
-#TODO: Make some commands available in doas with no password
-#echo "%wheel ALL=(ALL:ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/yay,/usr/bin/pacman -Syyuw --noconfirm" >/etc/sudoers.d/01-larbs-cmds-without-password
+# Allow certain commands to be run without password
+allowdoas
+
 
 # Last message! Install complete!
 finalize
