@@ -22,7 +22,6 @@
 ,glab,is a gitlab tool, similar to the "gh" script
 ,gnome-keyring,is the keyring I use for gpg
 ,go-ethereum,is a go wrapper for the ether blockchain
-,hyperfine,is a command-line benchmarking tool
 ,iptables,is the linux kernel's firewall tool
 ,isync,is needed for my email setup to sync mail
 ,jfsutils,are JFS filesystem utilities
@@ -75,7 +74,7 @@
 ,ttf-inconsolata,
 ,ttf-joypixels,
 ,ttf-liberation,
-,,ttf-linux-libertine,
+,ttf-linux-libertine,
 ,ueberzug,gives image previews to lf
 ,ufw,is a simple firewall and partial frontend to iptables
 ,unclutter,
@@ -96,7 +95,6 @@
 ,xfsprogs,are utilites for the xfs filesystem
 ,xorg-server,
 ,xorg-xauth,
-,xorg-xbacklight,
 ,xorg-xdpyinfo,
 ,xorg-xev,
 ,xorg-xhost,
@@ -122,8 +120,8 @@ A,vim-vimwiki,
 A,pam-gnupg-git,opens your gpg key on login
 A,gtk-theme-arc-gruvbox-git,gives a good darkmode for gkt applications
 A,sc-im-git,is a vim-based spreadsheet editor
-A,bisq,
-A,youtube-dl-git,
+#A,bisq,
+,yt-dlp,
 A,task-spooler,
 A,sx,
 A,opustags-git,is a tagger for opus files
